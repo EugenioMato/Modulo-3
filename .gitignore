@@ -1,0 +1,13 @@
+# Entorno virtual y cachés.
+.venv/
+__pycache__/
+*.pyc
+
+# Claves: nunca al repositorio.
+.env
+
+# Editor.
+.vscode/
+
+# Base vectorial: artefacto binario que se regenera con ingesta.py
+vectorstore/
